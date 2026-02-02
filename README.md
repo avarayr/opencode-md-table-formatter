@@ -1,5 +1,17 @@
 # @franlol/opencode-md-table-formatter
 
+> **Fork Notice**
+> 
+> This is a fork of [franlol/opencode-md-table-formatter](https://github.com/franlol/opencode-md-table-formatter).
+> 
+> **Changes in this fork:**
+> - Replaced plain markdown table borders with **box-drawing characters** (`┌┬┐`, `├┼┤`, `└┴┘`) for a cleaner visual appearance
+> - Removed unused dependencies (`tree-sitter-markdown`, `web-tree-sitter`)
+> - Added comprehensive **test suite** with `bun test`
+> - Extended markdown stripping to support underscore-style formatting (`__bold__`, `_italic_`), subscript (`~sub~`), and superscript (`^sup^`)
+
+---
+
 Markdown table formatter plugin for Opencode with concealment mode support.
 
 ## Usage
