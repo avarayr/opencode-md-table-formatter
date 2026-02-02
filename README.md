@@ -16,11 +16,17 @@ Markdown table formatter plugin for Opencode with concealment mode support.
 
 ## Usage
 
-Add the plugin to your `.opencode/opencode.jsonc`:
+1. Clone this repository:
+
+```bash
+git clone https://github.com/avarayr/opencode-md-table-formatter.git
+```
+
+2. Add the plugin to your `.opencode/opencode.jsonc` using the local file path:
 
 ```jsonc
 {
-  "plugin": ["@franlol/opencode-md-table-formatter@0.0.3"],
+  "plugin": ["file:///path/to/opencode-md-table-formatter/index.ts"],
 }
 ```
 
